@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vocabulary"
+            android:icon="@drawable/ic_dictionary"
+            android:title="@string/vocabulary" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sharedcol"
+            android:icon="@drawable/ic_baseline_collections_24"
+            android:title="@string/shared_collections" />
+    </group>
+
+    <item android:title="@string/controls">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_time_to_leave_24"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>
